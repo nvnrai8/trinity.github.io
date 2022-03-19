@@ -1,0 +1,68 @@
+<!-- <section class="course" id="coursediv">
+    <div class="container text-center">
+        <h1 class="text-center font-weight-bold hmainhead" >OUR COURSES</h1>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-header text-center">PGDCA</div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Fundamentals of Computer</li>
+                            <li>Ms Word, Ms Excel, Ms Powerpoint,Ms Access</li>
+                            <li>HTML/DHTML</li>
+                            <li>C Programming</li>
+                            <li>Visual Basic</li>
+                            <li>Tally</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">DURATION :12 MONTHS</div>
+                </div>
+            </div>
+        
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-header text-center">ADCA</div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Fundamentals of Computer</li>
+                            <li>Ms Word, Ms Excel, Ms Powerpoint,Ms Access</li>
+                            <li>HTML/DHTML</li>
+                            <li>C Programming</li>
+                            <li>Visual Basic</li>
+                            <li>Tally</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">DURATION :12 MONTHS</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-header text-center">ADCPS</div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Fundamentals of Computer</li>
+                            <li>Ms Word, Ms Excel, Ms Powerpoint,Ms Access</li>
+                            <li>HTML/DHTML</li>
+                            <li>C Programming</li>
+                            <li>Visual Basic</li>
+                            <li>Tally</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">DURATION :12 MONTHS</div>
+                </div>
+            </div>
+        
+        
+        
+        
+        
+        </div>
+
+    </div>
+
+
+</section>
+ -->

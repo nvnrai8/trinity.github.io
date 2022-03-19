@@ -1,0 +1,373 @@
+
+html{
+    scroll-behavior:smooth;
+    font-size:62.5%;
+}
+
+*{margin:0px; padding:0px; box-sizing:border-box;font-family:'Poppins',sens-serif;} 
+
+h1{
+    font-size:1.8rem;
+    font-weight:600;
+    text-align:center;
+    padding:0.5rem 0 0.5rem 0;
+    color:#000;
+}
+
+
+.hmainhead{font-size:4.0rem!important;}
+
+
+li{list-style:none;
+font-size:1.5rem;}
+
+ul li a{color:#fff!important;}
+
+a {color:!important;text-decoration:none;}
+a:hover{text-decoration:none;}
+
+ 
+p{
+    font-size:1.6rem;
+    line-height:1.6;
+    font-weight:600;
+    color:#000;
+ }
+
+.navbar-brand{
+    font-size:2.5rem;
+    padding-left :4rem;
+}
+
+.nav-item a{
+    font-size:1.7rem;
+}
+
+/* **************************header begins here ******************* */
+
+.header{
+    width:100%;
+    height:100vh;
+    /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/banner1.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%; */
+    /* clip-path:polygon(100% 0%,100% 77%,50% 100%,0% 75%,0 0); */
+    /* position:relative; */
+    /* border:3px solid red; */
+}
+
+/* .header:before{ 
+   content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0.3;
+    background:linear-gradient(to right, #1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+}  */
+
+
+
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+  }
+
+.carousel-caption h3{
+      font-size: 3rem;
+      text-shadow: 0 5px 30px 0 rgba(0,0,0,0.4);
+      font-family: 'Lobster', cursive;
+  }
+
+/* ************************header ends here******************* */
+
+
+
+/* ************************about us**************************** */
+.aboutus{
+    width:100%;
+    height:auto;
+    padding: 8rem 0px;
+    position:relative;
+    /* border:3px solid black; */
+   
+ }
+
+
+
+.aboutus:before{
+content: "";
+position:absolute;
+top:0%;
+bottom:0%;
+left:0;
+right:0;
+opacity:3;
+z-index:-1;
+/* background:linear-gradient(140deg, #61d3d3 56%,#fff 0%);*/
+background:linear-gradient(180deg,#fff 10%, #DFFF00 50%,#fff 100%);
+}
+/* ************************about us ************************** */
+
+
+
+/* **************course starts here************************** */
+.coursename {
+    width:100%;
+    height:inherit;
+    padding:10rem 0px;
+    position:relative;
+    /* border:3px solid black;   */
+ }
+
+.coursename:before{
+content: "";
+position:absolute;
+top:0%;
+bottom:0%;
+left:0;
+right:0;
+opacity:3;
+z-index:-1;
+background:linear-gradient(180deg,#fff 20%,#A3E4D7 50%,#fff 90%);
+}
+
+
+.box{
+    /* border:1px solid rgba(0,0,0,0.2); */
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius:20px 20px 0px 0px;
+    background:#fff;
+    transition: 0.3s ease-in-out;
+    padding:20px 30px;
+    /* background-image:linear-gradient(to bottom right, white, cyan,#fff); */
+    /* background: #c0c0aa;  fallback for old browsers */
+    background: -webkit-linear-gradient(to left,#EBEDEF,#fff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EBEDEF, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+.box:hover{
+    background-image:linear-gradient(to bottom right,white,#EBEDEF, #fff);
+    transform:translateY(-20px);
+}
+
+.box:hover h1{
+color:#000;
+}
+
+.box ul{
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+    border-bottom:1px solid #212F3D;
+    border-top:1px solid #212F3D;
+}
+
+
+.carousel-indicators{
+position:absolute;
+right:0;
+bottom: -5rem!important;
+}
+
+.carousel-indicators li{
+background-color:#212F3D!important;
+}
+
+.carousel-item h1{
+    color:#212F3D ;
+}
+ 
+
+.second{
+      padding :0px 3.0remx;
+     
+    }
+
+
+/* **************course ends here************************** */
+
+
+/********************service ****************************/
+.service{
+    width:100%;
+    height:100vh;
+    position:relative;
+    padding: 10rem 0rem;
+}
+
+.service:before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+/* background:linear-gradient(330deg,#16c9fc 55%, #fff 0%); */
+/* background:linear-gradient(330deg,#c8bab1 55%, #fff 0%); */
+/* background:linear-gradient(333deg, #F8F9F9 56%, #fff 0%); */
+background:linear-gradient(180deg,#fff 20%, #F4D03F 50%,#fff 100%);
+/* background:linear-gradient(180deg,#fff 10%, #e6e7e8 50%,#fff 100%); */
+z-index:-1;
+}
+
+
+/*********************service ends here*****************/
+
+
+
+
+
+
+/* **************************contact us starts************************ */
+
+
+.contactus{
+    width:100%;
+    height:100vh;
+    position:relative;
+    padding:10rem 0px;
+    }
+
+.contactus:before{
+content:'';
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+/*  background:linear-gradient(330deg,#16c9fc 55%, #fff 0%);  */
+/* background:linear-gradient(23deg,#c8bab1 60%, #fff 0%);  */
+/* background:linear-gradient(23deg, #F8F9F9 60%, #fff 0%); */
+/* background:linear-gradient(180deg,#fff 20%, #A3E4D7 50%,#fff 90%); */
+background:linear-gradient(180deg,#fff 20%, #e6e7e8 50%,#fff 100%);
+
+z-index:-1;
+}
+
+.form-control{
+   padding:1rem!important;
+   height:auto;
+   margin-top:2rem;
+}
+
+.form-button button{
+    border-radius:100px;
+    border:0.1rem solid #ABB2B9!important;
+    margin:0px 0.5rem;
+    padding:1.2rem 3.5rem;
+    outline: none;
+    color:#ABB2B9;
+    font-size:1.5rem;
+    font-weight:400;
+    line-height:1.4;
+    background:transparent; 
+    
+}
+.form-button button:hover{
+    color:#000;
+}
+
+
+form:hover .form-button button{
+    color:#000;
+    background:#fff;
+    box-shadow : 0 0 20px 0 rgba(0,0,0,0.3);
+}
+::placeholder{
+    font-size:1.5rem;
+    
+    }
+/* **************************contact us ends************************  */
+
+
+/* ***************footer starts here******************** */
+.footersection{
+    width:100%;
+    height:auto;
+    background:#e6e7e8;
+    padding: 6rem 0 2.0rem 0;
+    position:relative;
+   
+   
+}
+.footer-div{
+    /* border:1px solid blue; */
+}
+.footersection h3{
+    font-size:2rem!important;
+    color:#58595f;
+    font-weight:700;
+    text-shadow: 0 2px 5px rgba(0 0 0 0.4);
+    }
+
+.footersection p{
+    color:#58595f; 
+    /* font-weight:600; */
+    font-size:1.5rem;
+    line-height:1.8;
+}
+
+.footer-div p{
+   text-transform:capitalize!important;
+}
+
+.footer-div li a{
+    color:#58595f; 
+    font-weight:600;
+    font-size:1.4rem;
+    text-decoration:none;  
+}
+
+.footer-div li{
+    line-height:1.6;
+}
+
+
+
+
+.footer-div a{
+    color:#212529;
+}
+
+.footer-div a:hover{
+    color:#999999;
+}
+
+.footertext{
+    text-align:center;
+    margin-top:1.5rem; 
+}
+
+ .footertext p{
+    color:#58595f;
+    font-size:1.5rem;
+    font-weight:600;
+}
+
+
+
+
+/* ***************footer ends  here******************** */
+
+#myBtn{
+    display:none;
+    position:fixed;
+    color:#fff;
+    bottom:20px;
+    right:40px;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    background:#454545;
+    z-index:99;
+}
+
+#myBtn:hover{
+    background:#606060;
+}
+
+
