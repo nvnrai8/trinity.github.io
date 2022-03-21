@@ -289,7 +289,7 @@ form:hover .form-button button{
     width:100%;
     height:auto;
     background:#e6e7e8;
-    padding: 6rem 0 2.0rem 0;
+    padding: 6rem 0 4.0rem 0;
     position:relative;
    
    
@@ -302,7 +302,12 @@ form:hover .form-button button{
     color:#58595f;
     font-weight:700;
     text-shadow: 0 2px 5px rgba(0 0 0 0.4);
+  
+    margin-bottom:0.5rem;
+
     }
+
+ 
 
 .footersection p{
     color:#58595f; 
@@ -310,6 +315,8 @@ form:hover .form-button button{
     font-size:1.5rem;
     line-height:1.8;
 }
+
+
 
 .footer-div p{
    text-transform:capitalize!important;
@@ -338,14 +345,15 @@ form:hover .form-button button{
 }
 
 .footertext{
-    text-align:center;
-    margin-top:1.5rem; 
+    margin:0px auto;
 }
 
  .footertext p{
     color:#58595f;
     font-size:1.5rem;
     font-weight:600;
+    margin-top:1.5rem; 
+   
 }
 
 
@@ -357,8 +365,8 @@ form:hover .form-button button{
     display:none;
     position:fixed;
     color:#fff;
-    bottom:20px;
-    right:40px;
+    bottom:2.0rem;
+    right:4.0rem;
     border:none;
     padding:10px;
     border-radius:5px;
@@ -370,4 +378,27 @@ form:hover .form-button button{
     background:#606060;
 }
 
+/* *****************media queries**************************** */
 
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size:50%;
+        }
+    
+        .footer-div{
+            margin-bottom:1rem;
+        }
+        .box{
+            margin-top:1rem;
+            border-radius:0px;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon{
+            color:#000!important;
+            filter:invert(100%);
+        }
+}
