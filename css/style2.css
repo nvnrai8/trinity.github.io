@@ -402,3 +402,32 @@ form:hover .form-button button{
             filter:invert(100%);
         }
 }
+
+@media(max-width:480px){
+
+
+    html{
+        font-size:35%;
+        }
+    
+        .footer-div{
+            margin-bottom:1rem;
+        }
+        .box{
+            margin-top:1rem;
+            border-radius:0px;
+        }
+        .carousel-control-prev-icon, .carousel-control-next-icon{
+            color:#000!important;
+            filter:invert(100%);
+        }
+
+
+        
+
+    }
+
+
+
+
+
