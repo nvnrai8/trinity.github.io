@@ -422,10 +422,16 @@ form:hover .form-button button{
             filter:invert(100%);
         }
 
+        .contactus{
+            width:100%;
+            height:auto;
+            position:relative;
+            padding:10rem 0px;
 
-        
+}
 
-    }
+
+}
 
 
 
