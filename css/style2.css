@@ -424,10 +424,10 @@ form:hover .form-button button{
 
         .contactus{
             width:100%;
-            height:auto;
+            height:100vh;
             position:relative;
             padding:10rem 0px;
-            margin-top:4.0rem;
+            margin-top:6.0rem;
 
 }
 
