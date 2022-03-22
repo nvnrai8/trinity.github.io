@@ -449,6 +449,21 @@ form:hover .form-button button{
 
 }
 
+        .contactus:before{
+            content:'';
+            position:absolute;
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+            /* background:linear-gradient(330deg,#16c9fc 55%, #fff 0%);  */
+            /* background:linear-gradient(23deg,#c8bab1 60%, #fff 0%);  */
+            /* background:linear-gradient(23deg, #F8F9F9 60%, #fff 0%); */
+            background:linear-gradient(180deg,#fff 20%, #A3E4D7 50%,#fff 90%);
+            /* background:linear-gradient(180deg,#fff 20%, #e6e7e8 50%,#fff 100%); */
+            z-index:-1;
+            }
+
 
 }
 
