@@ -196,7 +196,8 @@ background-color:#212F3D!important;
     width:100%;
     height:100vh;
     position:relative;
-    padding: 10rem 0rem;
+    padding: 8.0rem 0rem;
+    /* border:1px solid black; */
 }
 
 .service:before{
@@ -229,7 +230,8 @@ z-index:-1;
     width:100%;
     height:100vh;
     position:relative;
-    padding:10rem 0px;
+    padding:8rem 0px;
+    /* border:1px solid black; */
     }
 
 .contactus:before{
@@ -239,12 +241,11 @@ top:0;
 left:0;
 bottom:0;
 right:0;
-/*  background:linear-gradient(330deg,#16c9fc 55%, #fff 0%);  */
+ /* background:linear-gradient(330deg,#16c9fc 55%, #fff 0%);  */
 /* background:linear-gradient(23deg,#c8bab1 60%, #fff 0%);  */
 /* background:linear-gradient(23deg, #F8F9F9 60%, #fff 0%); */
-/* background:linear-gradient(180deg,#fff 20%, #A3E4D7 50%,#fff 90%); */
-background:linear-gradient(180deg,#fff 20%, #e6e7e8 50%,#fff 100%);
-
+background:linear-gradient(180deg,#fff 20%, #A3E4D7 50%,#fff 90%);
+/* background:linear-gradient(180deg,#fff 20%, #e6e7e8 50%,#fff 100%); */
 z-index:-1;
 }
 
@@ -302,9 +303,7 @@ form:hover .form-button button{
     color:#58595f;
     font-weight:700;
     text-shadow: 0 2px 5px rgba(0 0 0 0.4);
-  
     margin-bottom:0.5rem;
-
     }
 
  
@@ -424,13 +423,14 @@ form:hover .form-button button{
 
         .service{
             padding:8rem 0px; 
+            height:auto;
         }
         .contactus{
             width:100%;
-            height:100vh;
+            height:auto;
             position:relative;
             padding:8rem 0px;
-            margin-top:5.0rem;
+            /* margin-top:4.5rem; */
 
 }
 
