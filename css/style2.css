@@ -194,7 +194,7 @@ background-color:#212F3D!important;
 /********************service ****************************/
 .service{
     width:100%;
-    height:100vh;
+    height:auto;
     position:relative;
     padding: 8.0rem 0rem;
     /* border:1px solid black; */
@@ -228,7 +228,7 @@ z-index:-1;
 
 .contactus{
     width:100%;
-    height:100vh;
+    height:auto;
     position:relative;
     padding:8rem 0px;
     /* border:1px solid black; */
