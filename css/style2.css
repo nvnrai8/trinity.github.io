@@ -422,8 +422,9 @@ form:hover .form-button button{
         }
 
         .service{
-            padding:4rem 0px; 
+            width:100%;
             height:auto;
+            padding:4rem 0px; 
             position:relative;
         }
         .service:before{
