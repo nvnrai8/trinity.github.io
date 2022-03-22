@@ -407,6 +407,7 @@ form:hover .form-button button{
 
     html{
         font-size:35%;
+        scroll-behavior:smooth;
         }
     
         .footer-div{
