@@ -15,7 +15,7 @@ h1{
 }
 
 
-.hmainhead{font-size:4.0rem!important;}
+.hmainhead{font-size:4.0rem!important;margin-bottom:3rem;}
 
 
 li{list-style:none;
@@ -237,9 +237,10 @@ z-index:-1;
     }
 
 .box2:hover{
-    /* background-image:linear-gradient(to bottom right,white,#EBEDEF, #fff); */
-    transform:translateY(-20px);
-}
+    background:linear-gradient(180deg,#fff 10% ,#EBEDEF 100%);
+    transform:translateY(-10px);
+    /* background-color:#A3E4D7; */
+} 
 
 .box2:hover h1{
 color:#000;
