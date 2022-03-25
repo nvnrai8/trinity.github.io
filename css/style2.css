@@ -48,6 +48,7 @@ p{
 .header{
     width:100%;
     height:100vh;
+    /* padding:8rem 0px;  */
     /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/banner1.jpg");
     background-repeat:no-repeat;
     background-size:100% 100%; */
@@ -73,7 +74,7 @@ p{
 
 .carousel-inner img {
     width: 100%;
-    height: 100vh;
+    height:100vh;
   }
 
 .carousel-caption h3{
@@ -139,7 +140,7 @@ background:linear-gradient(180deg,#fff 20%,#A3E4D7 50%,#fff 90%);
 .box{
     /* border:1px solid rgba(0,0,0,0.2); */
     box-shadow:0 5px 10px 0 rgba(0,0,0,0.3);
-    border-radius:20px 20px 0px 0px;
+    /* border-radius:20px 20px 0px 0px; */
     background:#fff;
     transition: 0.3s ease-in-out;
     padding:20px 30px;
@@ -210,11 +211,46 @@ right:0;
 /* background:linear-gradient(330deg,#16c9fc 55%, #fff 0%); */
 /* background:linear-gradient(330deg,#c8bab1 55%, #fff 0%); */
 /* background:linear-gradient(333deg, #F8F9F9 56%, #fff 0%); */
-background:linear-gradient(180deg,#fff 20%, #F4D03F 50%,#fff 100%);
+/* background:linear-gradient(180deg,#fff 20%, #999999 50%,#fff 100%); */
 /* background:linear-gradient(180deg,#fff 10%, #e6e7e8 50%,#fff 100%); */
 z-index:-1;
 }
 
+.service-row{
+    /* border:1px solid black; */
+    padding: 2.0rem 0px;
+}
+
+
+.box2{
+    /* border:1px solid rgba(0,0,0,0.2); */
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.3);
+    /* border-radius:20px 20px 0px 0px; */
+    background:#fff;
+    transition: 0.3s ease-in-out;
+    padding:20px 30px;
+    /* background-image:linear-gradient(to bottom right, white, cyan,#fff); */
+    /* background: #c0c0aa;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left,#EBEDEF,#fff);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #EBEDEF, #fff); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+.box2:hover{
+    /* background-image:linear-gradient(to bottom right,white,#EBEDEF, #fff); */
+    transform:translateY(-20px);
+}
+
+.box2:hover h1{
+color:#000;
+}
+
+.box2 ul{
+    padding-bottom:0.5rem;
+    padding-top:0.5rem;
+    border-bottom:1px solid #212F3D;
+    border-top:1px solid #212F3D;
+}
 
 /*********************service ends here*****************/
 
@@ -266,8 +302,9 @@ z-index:-1;
     font-weight:400;
     line-height:1.4;
     background:transparent; 
-    
-}
+   }
+
+
 .form-button button:hover{
     color:#000;
 }
@@ -278,10 +315,11 @@ form:hover .form-button button{
     background:#fff;
     box-shadow : 0 0 20px 0 rgba(0,0,0,0.3);
 }
-::placeholder{
-    font-size:1.5rem;
-    
-    }
+
+
+::placeholder{font-size:1.5rem;}
+
+input[type=text],input[type=email],textarea{font-size:1.5rem!important;}
 /* **************************contact us ends************************  */
 
 
@@ -415,32 +453,21 @@ form:hover .form-button button{
         }
         .box{
             margin-top:1rem;
-            border-radius:0px;
-        }
+            transform:none;
+             }
+
+        .box2{
+            margin-top:1rem;
+            transform:none;
+            }
+
+        
         .carousel-control-prev-icon, .carousel-control-next-icon{
             color:#000!important;
             filter:invert(100%);
-        }
+                    }
 
-        .service{
-            width:100%;
-            height:auto;
-            padding:4rem 0px; 
-            position:relative;
-        }
-        .service:before{
-            content:'';
-            position:absolute;
-            top:0;
-            left:0;
-            bottom:0;
-            right:0;
-            /* background:linear-gradient(330deg,#16c9fc 55%, #fff 0%); */
-            /* background:linear-gradient(330deg,#c8bab1 55%, #fff 0%); */
-            /* background:linear-gradient(333deg, #F8F9F9 56%, #fff 0%); */
-            background:linear-gradient(180deg,#fff 20%, #F4D03F 50%,#fff 100%);
-            /* background:linear-gradient(180deg,#fff 10%, #e6e7e8 50%,#fff 100%); */
-            z-index:-1; }
+        
        
             .contactus{
             width:100%;
