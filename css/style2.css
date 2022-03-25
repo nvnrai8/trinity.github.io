@@ -71,10 +71,10 @@ p{
 
 
 
-
 .carousel-inner img {
     width: 100%;
     height:100vh;
+   
   }
 
 .carousel-caption h3{
@@ -90,7 +90,7 @@ p{
 /* ************************about us**************************** */
 .aboutus{
     width:100%;
-    height:auto;
+    height:1auto;
     padding: 8rem 0px;
     position:relative;
     /* border:3px solid black; */
@@ -229,6 +229,7 @@ z-index:-1;
     background:#fff;
     transition: 0.3s ease-in-out;
     padding:20px 30px;
+	 background:linear-gradient(0deg, rgba(132 144 255) 0% ,rgba(98 189 252) 100%);
     /* background-image:linear-gradient(to bottom right, white, cyan,#fff); */
     /* background: #c0c0aa;  fallback for old browsers */
     /* background: -webkit-linear-gradient(to left,#EBEDEF,#fff);  Chrome 10-25, Safari 5.1-6 */
@@ -237,7 +238,8 @@ z-index:-1;
     }
 
 .box2:hover{
-    background:linear-gradient(180deg,#fff 10% ,#EBEDEF 100%);
+   /* background:linear-gradient(180deg,#fff 10% ,#EBEDEF 100%); */
+    background:linear-gradient(180deg, rgba(132 144 255) 0% ,rgba(98 189 252) 80%  );
     transform:translateY(-10px);
     /* background-color:#A3E4D7; */
 } 
