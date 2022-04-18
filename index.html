@@ -25,6 +25,7 @@
    <!--top header starts here  -->
    
 <!-- <section class="header" id="headerdiv"> -->
+    
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3" >
             
                 <a class="navbar-brand font-weight-bold text-white animate__animated animate__pulse animate__infinite infinite" href="#">TRINITY COMPUTER INSTITUTE</a>
@@ -55,7 +56,7 @@
         </nav>
    
      
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="demo" class="carousel slide car-div" data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" class="active"></li>
               <li data-target="#demo" data-slide-to="1"></li>
@@ -82,7 +83,7 @@
               <span class="carousel-control-next-icon"></span>
             </a>
           </div>
-    
+        
         <!-- </section>     -->
    
 
@@ -427,22 +428,22 @@
     <div class="row">
         <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1">
            
-            <form action="email.php" method="post">
+            <form   action="https://formspree.io/f/xbjwzwlz" method="POST">
                 
                 <div class="form-group">
-                <input type="text" class="form-control" placeholder="Enter your name" id="username" required autocomplete="off">
+                <input type="text" class="form-control" placeholder="Enter your name" id="username" name="username" required autocomplete="off">
                 </div>
                 
                 <div class="form-group">
-                <input type="email" class="form-control" placeholder="Enter your email" id="email" required autocomplete="off">
+                <input type="email" class="form-control" placeholder="Enter your email" id="email" name="email" required autocomplete="off">
                 </div>
                 
                 <div class="form-group">
-                <input type="text" class="form-control" placeholder="Enter Mobile Number" id="mobile" required autocomplete="off">
+                <input type="text" class="form-control" placeholder="Enter Mobile Number" id="mobile" name="mobileno" required autocomplete="off">
                 </div>
                 
                 <div class="form-group">
-                <textarea class="form-control" rows="5" placeholder="Enter your message" id="comment"></textarea>
+                <textarea class="form-control" rows="5" placeholder="Enter your message" id="comment" name="comment" required autocomplete="off"></textarea>
                 </div>
                 
                 <div class="d-flex justify-content-center form-button">
